@@ -1,0 +1,24 @@
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.class-logo {
+    margin: 3vh;
+}
+
+.class-profilePic {
+    margin: 3vh;
+}
+.imageHover:hover {
+    background-color: lightblue;
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.selected-img {
+    background-color: lightblue;
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

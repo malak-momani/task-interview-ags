@@ -1,0 +1,41 @@
+.main-box {
+    margin: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+.item-box {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.buttons-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item-title {
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+}
+
+.fields-Box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin-bottom: 3vh;
+}
+.button-end{
+    height: 8vh;
+    width: 16vh;
+}
